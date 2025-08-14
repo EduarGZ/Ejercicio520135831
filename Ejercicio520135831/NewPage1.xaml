@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio520135831.NewPage1"
+             Title="NewPage1">
+    <VerticalStackLayout>
+        <Label Text="Menu Colaborativo" HorizontalOptions="Center" FontSize="40" Margin="20"/>
+        <HorizontalStackLayout Spacing="10" Margin="10" HorizontalOptions="Center">
+            <Button Text="Ejercicio1 Oseas" WidthRequest="200" Clicked="Button_Clicked"/>
+            <Button Text="Ejercicio2 Erika" WidthRequest="200" Clicked="Button_Clicked_1"/>
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout Spacing="10" Margin="10" HorizontalOptions="Center">
+            <Button Text="Ejercicio3 Jefferson" WidthRequest="200" Clicked="Button_Clicked_2"/>
+            <Button Text="Ejercicio4 Jefferson" WidthRequest="200" Clicked="Button_Clicked_3"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="10" Margin="10" HorizontalOptions="Center">
+            <Button Text="Ejercicio5 Yoselin" WidthRequest="200" Clicked="Button_Clicked_4"/>
+            <Button Text="Ejercicio6 Kevin" WidthRequest="200" Clicked="Button_Clicked_5"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
