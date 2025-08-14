@@ -6,7 +6,8 @@
         {
             InitializeComponent();
 
-            Routing.RegisterRoute("Primera", typeof(NewPage1));
+            Routing.RegisterRoute("Segunda", typeof(ErikaPage));
+            Routing.RegisterRoute("Principal", typeof(MainPage));
         }
     }
 }
