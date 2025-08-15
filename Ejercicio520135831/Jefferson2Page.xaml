@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio520135831.Jefferson2Page"
+             Title="Jefferson2Page">
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <Label Text="Cálculo de Sueldo Semanal"
+           FontSize="24"
+           HorizontalOptions="Center"
+           TextColor="DarkBlue" />
+
+        <Entry x:Name="txtHoras"
+           Placeholder="Ingrese horas trabajadas"
+           Keyboard="Numeric" />
+
+        <Entry x:Name="txtPagoHora"
+           Placeholder="Ingrese pago por hora"
+           Keyboard="Numeric" />
+
+        <Button Text="Calcular Sueldo"
+            BackgroundColor="DarkBlue"
+            TextColor="White"
+            Clicked="Button_Clicked" />
+
+        <Frame x:Name="frameResultado"
+           BorderColor="DarkBlue"
+           Padding="10"
+           CornerRadius="10"
+           BackgroundColor="LightGray">
+            <Label x:Name="lblResultado"
+               Text="El resultado aparecerá aquí"
+               FontSize="18"
+               TextColor="Black" />
+        </Frame>
+
+        <Button Text="Regresar" WidthRequest="200" HorizontalOptions="Center" BackgroundColor="Purple" TextColor="White" Clicked="Button_Clicked_1"/>
+    </VerticalStackLayout>
+</ContentPage>

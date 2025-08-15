@@ -66,6 +66,12 @@
 	  <MauiXaml Update="ErikaPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Jefferson2Page.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="JeffersonPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="KevinPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio520135831.JeffersonPage"
+             Title="JeffersonPage">
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <Label Text="Seleccione una tabla"
+               FontSize="20"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               TextColor="DarkBlue"/>
+
+        <!-- Selector de tabla -->
+        <Picker x:Name="TablaPicker"
+                Title="Elija una tabla"
+                SelectedIndexChanged="TablaPicker_SelectedIndexChanged"/>
+
+        <!-- Resultado de la tabla -->
+        <ScrollView>
+            <Label x:Name="ResultadoLabel"
+                   FontSize="18"
+                   TextColor="Black"/>
+        </ScrollView>
+
+        <Button Text="Regresar" WidthRequest="200" HorizontalOptions="Center" BackgroundColor="Purple" TextColor="White" Clicked="Button_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
