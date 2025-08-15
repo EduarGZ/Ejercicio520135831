@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio520135831.KevinPage"
+             Title="KevinPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20">
+
+            <Label Text="Conversión de moneda empresarial" HorizontalTextAlignment="Center" FontSize="20"/>
+
+            <HorizontalStackLayout Spacing="290" HorizontalOptions="Center">
+                <VerticalStackLayout>
+                    <Label Text="Elige una de las opciones"></Label>
+                </VerticalStackLayout>
+
+                <VerticalStackLayout>
+                    <Label Text="Elige una de las opciones"></Label>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Margin="10" Spacing="50" HorizontalOptions="Center">
+                <!-- Grupo 1 -->
+                <VerticalStackLayout Spacing="10">
+                    <Button
+    x:Name="btnOpciones"
+    Text="Selecciona una opción"
+    Clicked="btnOpciones_Clicked"
+    WidthRequest="250"
+    HorizontalOptions="Center"/>
+
+                    <Frame
+    x:Name="frameOpciones"
+    BackgroundColor="LightGray"
+    Padding="10"
+    HasShadow="True"
+    IsVisible="False"
+    WidthRequest="250"
+    HorizontalOptions="Center">
+                        <VerticalStackLayout Spacing="5">
+                            <Button Text="Pesos" Clicked="Button_Clicked" />
+                            <Button Text="Dolares" Clicked="Button_Clicked" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </VerticalStackLayout>
+                <Label Text="Convertir a ➡️" FontSize="20"/>
+
+                <!-- Grupo 2 -->
+                <VerticalStackLayout Spacing="10">
+                    <Button
+    x:Name="btnOpciones2"
+    Text="Selecciona una opción"
+    Clicked="btnOpciones2_Clicked"
+    WidthRequest="250"
+    HorizontalOptions="Center"/>
+
+                    <Frame
+    x:Name="frameOpciones2"
+    BackgroundColor="LightGray"
+    Padding="10"
+    HasShadow="True"
+    IsVisible="False"
+    WidthRequest="250"
+    HorizontalOptions="Center">
+                        <VerticalStackLayout Spacing="5">
+                            <Button Text="Pesos" Clicked="Button_Clicked_1" />
+                            <Button Text="Dolares" Clicked="Button_Clicked_1" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </VerticalStackLayout>
+            </HorizontalStackLayout>
+            <Entry x:Name="cantidad" Keyboard="Numeric" IsEnabled="True" WidthRequest="350"/>
+            <Button Text="Conversion" WidthRequest="200" Clicked="Button_Clicked_2"/>
+            <Button x:Name="Resultado" Text="Resultado" WidthRequest="300" IsEnabled="False"/>
+            <Button Text="Regresar" WidthRequest="200" HorizontalOptions="Center" BackgroundColor="Purple" TextColor="White" Clicked="Button_Clicked_3"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -38,9 +38,9 @@
             await Shell.Current.GoToAsync("Quinta");
         }
 
-        private void Button_Clicked_5(object sender, EventArgs e)
+        private async void Button_Clicked_5(object sender, EventArgs e)
         {
-
+            await Shell.Current.GoToAsync("Sexta");
         }
     }
 
