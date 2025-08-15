@@ -8,6 +8,7 @@
 
             Routing.RegisterRoute("Segunda", typeof(ErikaPage));
             Routing.RegisterRoute("Principal", typeof(MainPage));
+            Routing.RegisterRoute("Quinta", typeof(NewPage1));
         }
     }
 }

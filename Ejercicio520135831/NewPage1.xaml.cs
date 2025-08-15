@@ -69,4 +69,9 @@ public partial class NewPage1 : ContentPage
     {
 
     }
+
+    private async void Button_Clicked_6(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync("Principal");
+    }
 }

@@ -17,6 +17,7 @@
                 <Label Text="Perfecto" HorizontalOptions="Center" FontSize="20"></Label>
                 <Label x:Name="indicar" Text="" HorizontalOptions="Center" FontSize="20" TextColor="Black"></Label>
             </Frame>
+            <Button Text="Regresar" WidthRequest="200" HorizontalOptions="Center" BackgroundColor="Purple" TextColor="White" Clicked="Button_Clicked_6"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
