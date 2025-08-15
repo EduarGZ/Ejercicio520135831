@@ -23,7 +23,7 @@
                    TextColor="Black"/>
         </ScrollView>
 
-        <Button Text="Regresar" WidthRequest="200" HorizontalOptions="Center" BackgroundColor="Purple" TextColor="White" Clicked="Button_Clicked"/>
+        <Button Text="Regresar al menu" WidthRequest="200" HorizontalOptions="Center" BackgroundColor="Purple" TextColor="White" Clicked="Button_Clicked"/>
 
     </VerticalStackLayout>
 </ContentPage>
