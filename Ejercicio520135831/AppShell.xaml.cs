@@ -12,6 +12,7 @@
             Routing.RegisterRoute("Sexta", typeof(KevinPage));
             Routing.RegisterRoute("Tercera", typeof(JeffersonPage));
             Routing.RegisterRoute("Cuarta", typeof(Jefferson2Page));
+            Routing.RegisterRoute("Primera", typeof(OseasPage));
         }
     }
 }

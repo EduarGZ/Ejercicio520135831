@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio520135831.OseasPage"
+             Title="OseasPage">
+    
+    <StackLayout>
+        <Label Text="Números Pares del 0 al 100"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <CollectionView x:Name="NumerosParesCollection">
+            <CollectionView.ItemsLayout>
+
+                <GridItemsLayout Orientation="Horizontal"
+                                 Span="10"
+                                 HorizontalItemSpacing="20" />
+
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Label Text="{Binding}" FontSize="18" />
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button Text="Regresar" WidthRequest="200" HorizontalOptions="Center" BackgroundColor="Purple" TextColor="White" Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>
